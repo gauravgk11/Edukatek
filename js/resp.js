@@ -1,0 +1,9 @@
+burger=document.querySelector('.burger');
+rightnav=document.querySelector('.rightnav');
+navlist=document.querySelector('.nav-list');
+navbar=document.querySelector('.navbar');
+burger.addEventListener('click',()=>{
+   rightnav.classList.toggle('vclass');
+   navlist.classList.toggle('vclass');
+   navbar.classList.toggle('heightnav');
+})
